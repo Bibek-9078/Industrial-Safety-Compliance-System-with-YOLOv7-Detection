@@ -31,11 +31,11 @@ Download object detection model manually:https://1drv.ms/f/s!AiUFkBjoGcsogtBu98S
    
    **Blue**: Electrician, **Red**: Fire department, **White**: Supervisor, **Yellow**: Worker
 
-![3](https://github.com/Bibek-9078/PPE-Detection-with-YOLO-Models/blob/main/image/3.jpg)
+![3](https://github.com/Bibek-9078/Industrial-Safety-Compliance-System-with-YOLOv7-Detection/blob/main/image/3.jpg)
 
 2. **Classify the Person on the basis of helmet color and vest weather the person is compliant or non-compliant**:
 
-   ![1](https://github.com/Bibek-9078/PPE-Detection-with-YOLO-Models/blob/main/image/1.jpg)
+   ![1](https://github.com/Bibek-9078/Industrial-Safety-Compliance-System-with-YOLOv7-Detection/blob/main/image/1.jpg)
 
 - if the person is wearing blue helmet and vest then it is consider as **Compiliant_Electrician**.
 
@@ -47,7 +47,8 @@ Download object detection model manually:https://1drv.ms/f/s!AiUFkBjoGcsogtBu98S
         
 
 3. **Classify the Person on the basis of helmet color  and vest weather the person is compliant or non-compliant**.
-   ![10](https://github.com/Bibek-9078/PPE-Detection-with-YOLO-Models/blob/main/image/10.jpg)
+   
+   ![10](https://github.com/Bibek-9078/Industrial-Safety-Compliance-System-with-YOLOv7-Detection/blob/main/image/10.jpg)
 
 - if the person is wearing blue helmet and not vest then it is consider as **non-Compiliant_Electrician**.
    
