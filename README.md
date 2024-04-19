@@ -9,7 +9,11 @@ Develop an automated system using the YOLOv7 detection model to ensure complianc
 
 The solution aims to enhance safety protocols and streamline compliance monitoring processes in industrial environments.
 
-### Installation and Run
+# Dataset
+- A novel dataset is constructed for detecting the helmet, the helmet colors and the person for this project.
+- The dataset is open for free use, please download at
+
+# Installation and Run
 ```
 pip install -r requirements.txt  # install
 python helmet.py --weights besthelmet.pt --conf 0.40 --img-size 640 --source source_path   #inference
