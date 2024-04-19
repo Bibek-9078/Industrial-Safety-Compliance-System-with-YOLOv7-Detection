@@ -28,11 +28,14 @@ Download object detection model manually:https://1drv.ms/f/s!AiUFkBjoGcsogtBu98S
 # STEPS:
 
 1. **First detect the person ,vest and Helmet color(blue','red','white', 'yellow') in the frame using yolov7 detection model.**
-
    
+   **Blue**: Electrician, **Red**: Fire department, **White**: Supervisor, **Yellow**: Worker
+
+![3](https://github.com/Bibek-9078/PPE-Detection-with-YOLO-Models/blob/main/image/3.jpg)
+
 2. **Classify the Person on the basis of helmet color and vest weather the person is compliant or non-compliant**:
 
-     **Blue**: Electrician, **Red**: Fire department, **White**: Supervisor, **Yellow**: Worker
+   ![1](https://github.com/Bibek-9078/PPE-Detection-with-YOLO-Models/blob/main/image/1.jpg)
 
 - if the person is wearing blue helmet and vest then it is consider as **Compiliant_Electrician**.
 
@@ -44,6 +47,7 @@ Download object detection model manually:https://1drv.ms/f/s!AiUFkBjoGcsogtBu98S
         
 
 3. **Classify the Person on the basis of helmet color  and vest weather the person is compliant or non-compliant**.
+   ![10](https://github.com/Bibek-9078/PPE-Detection-with-YOLO-Models/blob/main/image/10.jpg)
 
 - if the person is wearing blue helmet and not vest then it is consider as **non-Compiliant_Electrician**.
    
@@ -52,5 +56,10 @@ Download object detection model manually:https://1drv.ms/f/s!AiUFkBjoGcsogtBu98S
 - if the person is wearing white helmet and not vest then it is consider as **non-Compliant_Supervisor**.
 
 - if the person is wearing yellow helmet and not vest then it is consider as **non-Compiliant_Worker**.
+
+
+# conclusion
+
+The YOLOv7 detection model serves as a robust tool for ensuring compliance with safety regulations in industrial settings. By accurately detecting persons, vests, and helmet colors in real-time video frames, the model enables the classification of individuals based on helmet color and vest presence. Compliance criteria are clearly defined, allowing for the identification of compliant electricians, fire department personnel, supervisors, and workers based on their attire. Additionally, the model efficiently flags instances of non-compliance, such as when a person wears a helmet without a corresponding vest, thus aiding in maintaining safety standards within industrial environments.
 
 
